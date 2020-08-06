@@ -27,8 +27,6 @@ import warnings
 #logging.basicConfig(
 #    format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
 
-date = datetime.today().strftime('%Y-%m-%d')
-
 
 def run():
     #Flask built in deploy for development (lazy loading)
@@ -40,6 +38,7 @@ def run():
 
 #Cache reloading medthod
 def cacheWorkaround(file):
+    date = datetime.today().strftime('%Y-%m-%d')
     return file.read().replace('REPLACE', date)
 
 
