@@ -1,0 +1,85 @@
+ERROR:main:Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a StreamReaderWriter.
+ERROR:main:Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a StreamReaderWriter.
+INFO:werkzeug: * Running on http://0.0.0.0:8081/ (Press CTRL+C to quit)
+ERROR:main:Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a StreamReaderWriter.
+INFO:werkzeug:172.18.0.1 - - [06/Aug/2020 05:03:16] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:8081/ (Press CTRL+C to quit)
+ERROR:main:Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a StreamReaderWriter.
+INFO:werkzeug:172.18.0.1 - - [06/Aug/2020 05:03:28] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:172.18.0.1 - - [06/Aug/2020 05:03:55] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:172.18.0.1 - - [06/Aug/2020 05:03:55] "[37mGET /static/chatbot.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:172.18.0.1 - - [06/Aug/2020 05:03:55] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:172.18.0.1 - - [06/Aug/2020 05:04:03] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:172.18.0.1 - - [06/Aug/2020 05:06:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:172.18.0.1 - - [06/Aug/2020 05:06:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:172.18.0.1 - - [06/Aug/2020 05:06:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:172.18.0.1 - - [06/Aug/2020 05:06:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:172.18.0.1 - - [06/Aug/2020 05:06:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:172.18.0.1 - - [06/Aug/2020 05:06:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:172.18.0.1 - - [06/Aug/2020 05:06:24] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:172.18.0.1 - - [06/Aug/2020 05:06:24] "[37mGET /static/chatbot.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:172.18.0.1 - - [06/Aug/2020 05:06:25] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:172.18.0.1 - - [06/Aug/2020 05:06:25] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:172.18.0.1 - - [06/Aug/2020 05:06:25] "[37mGET /static/chatbot.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:172.18.0.1 - - [06/Aug/2020 05:08:52] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:172.18.0.1 - - [06/Aug/2020 05:10:44] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:172.18.0.1 - - [06/Aug/2020 05:10:44] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:root:Incoming: hola
+INFO:root:Out: Lo sentimos hubo un error al procesar tu mensaje, intenta refrasearlo.
+INFO:werkzeug:172.18.0.1 - - [06/Aug/2020 05:10:49] "[37mGET /input?msg=hola HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:172.18.0.1 - - [06/Aug/2020 05:11:37] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:172.18.0.1 - - [06/Aug/2020 05:11:37] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:root:Incoming: hola
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): iam.cloud.ibm.com:443
+DEBUG:urllib3.connectionpool:https://iam.cloud.ibm.com:443 "POST /identity/token HTTP/1.1" 200 1830
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.us-south.assistant.watson.cloud.ibm.com:443
+DEBUG:urllib3.connectionpool:https://api.us-south.assistant.watson.cloud.ibm.com:443 "POST /instances/4b7c9dbf-8744-42f2-8601-ad43a3eb0490/v2/assistants/8b34bc79-f04a-42c8-90cc-a54ffbbeaba4/sessions?version=2020-02-05 HTTP/1.1" 201 53
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.us-south.assistant.watson.cloud.ibm.com:443
+DEBUG:urllib3.connectionpool:https://api.us-south.assistant.watson.cloud.ibm.com:443 "POST /instances/4b7c9dbf-8744-42f2-8601-ad43a3eb0490/v2/assistants/8b34bc79-f04a-42c8-90cc-a54ffbbeaba4/sessions/2be802f7-a267-47bc-b901-579c70ab3047/message?version=2020-02-05 HTTP/1.1" 200 143
+INFO:root:Out: Lo sentimos hubo un error al procesar tu mensaje, intenta refrasearlo.
+INFO:werkzeug:172.18.0.1 - - [06/Aug/2020 05:11:43] "[37mGET /input?msg=hola HTTP/1.1[0m" 200 -
