@@ -1,5 +1,5 @@
 #Server dependencies
-from gevent.pywsgi import WSGIServer
+#from gevent.pywsgi import WSGIServer
 from threading import Thread
 from flask import Flask, request, send_from_directory
 from flask_mobility import Mobility
@@ -9,17 +9,17 @@ import os
 from assistant import sendToAssistant
 
 #File management
-from bs4 import BeautifulSoup
+#from bs4 import BeautifulSoup
 import codecs
-import re
+#import re
 import json
-import logging
+#import logging
 
 #Miscelaneous
 from datetime import datetime
 
 #Warnings
-import warnings
+#import warnings
 #warnings.filterwarnings("ignore")
 
 #Logging configuration set to debug on history.log file
