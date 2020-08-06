@@ -44,6 +44,9 @@ def cacheWorkaround(file):
 
 #Open html files
 def loadPage(src):
+		#For cache reloading on load
+		#return cacheWorkaround(src)
+
     return codecs.open(src, "r", "utf-8").read()
 
 
@@ -58,7 +61,7 @@ app = Flask(__name__)
 Mobility(app)
 
 
-#Disable unneeded dependencies logging
+#Disable unwanted dependencies logging
 #werkzeugLog = logging.getLogger('werkzeug')
 #werkzeugLog.disabled = True
 #requestsLog = logging.getLogger("urllib3.connectionpool")
@@ -96,7 +99,7 @@ def web():
 
     except:
         #Critical error, either watsons response was uncall for, or server error.
-        response = "Lo sentimos hubo un error al procesar tu mensaje, intenta refrasearlo."
+        response = "Error"
 
     #logging.info('Out: ' + response)
 
